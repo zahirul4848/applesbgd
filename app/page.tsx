@@ -1,12 +1,14 @@
-import Intro from "@/components/home/intro";
-import ThemeSwitch from "@/components/theme-switch";
+import HomeComponent from "@/components/home/home-component";
+import SectionDivider from "@/components/home/section-divider";
+import About from "@/components/about/about";
 
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center mx-4">
-      <Intro/>    
-      <ThemeSwitch/>        
+    <main className="flex flex-col items-center">
+      <HomeComponent/>
+      <SectionDivider />
+      <About/>
     </main>
   );
 }
