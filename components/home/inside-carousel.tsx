@@ -14,11 +14,12 @@ export default function InsideCarousel() {
       className="max-w-[50rem] text-center scroll-mt-[100rem]"
     >
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 sm:mb-20 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-      >        
-        <span className="text-lg">Professional Cleaning & Pest Control Service</span><br />
+      > 
+        <span className="text-2xl uppercase">Apples International Ltd.</span><br />
+        <span className="text-lg">Professional Cleaning & Pest Control Service</span><br/><br/>
         <span>SO FRESH & SO CLEAN...</span><br />
         <span className="text-xl">We Promise!</span>
       </motion.h1>
