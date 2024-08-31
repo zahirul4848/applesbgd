@@ -25,7 +25,7 @@ const Header = () => {
             setTimeOfLastClick(Date.now);
           }}
         >
-          <Image src={"/logo.jpg"} alt='Image' width={64} height={64} className='w-10 h-10 sm:w-14 sm:h-14 hover:scale-105 transition-transform' />
+          <Image src={"/logo.jpg"} alt='Image' width={300} height={300} className='w-10 h-10 sm:w-14 sm:h-14 hover:scale-105 transition-transform' />
         </Link>
       
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[54rem] sm:flex-nowrap sm:gap-5">
