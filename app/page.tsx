@@ -5,6 +5,7 @@ import Services from "@/components/services/services";
 import Gallery from "@/components/gallery/gallery";
 import Testimonials from "@/components/testimonials/testimonials";
 import Contact from "@/components/contact/contact";
+import Footer from "@/components/contact/footer";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Gallery/>
       <Testimonials/>
       <Contact/>
+      <Footer/>
     </main>
   );
 }

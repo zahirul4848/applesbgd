@@ -36,10 +36,10 @@ const TestimonialSlider = () => {
           <p className="text-lg italic mb-4">
             "{testimonialData[currentIndex].testimonial}"
           </p>
-          <h3 className="text-xl font-semibold">
+          <h3 className="text-md font-semibold">
             {testimonialData[currentIndex].name}
           </h3>
-          <p className="text-gray-500">{testimonialData[currentIndex].role}</p>
+          <p className="text-gray-500 text-xs">{testimonialData[currentIndex].role}</p>
         </motion.div>
       </AnimatePresence>
 
