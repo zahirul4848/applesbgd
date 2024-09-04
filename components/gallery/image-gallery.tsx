@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import {galleryImages} from '@/lib/data';
-import Image from 'next/image';
+
 
 const fadeInAnimationVariants = {
   initial: {
